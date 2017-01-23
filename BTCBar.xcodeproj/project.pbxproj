@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9654D31C1E36B7200062DFEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654D31B1E36B7200062DFEF /* AppDelegate.swift */; };
+		9654D31E1E36B7200062DFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9654D31D1E36B7200062DFEF /* Assets.xcassets */; };
+		9654D3211E36B7200062DFEF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9654D31F1E36B7200062DFEF /* MainMenu.xib */; };
+		9654D32C1E36B7200062DFEF /* BTCBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654D32B1E36B7200062DFEF /* BTCBarTests.swift */; };
+		9654D3371E36B7200062DFEF /* BTCBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654D3361E36B7200062DFEF /* BTCBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9654D3281E36B7200062DFEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9654D3101E36B7200062DFEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9654D3171E36B7200062DFEF;
+			remoteInfo = BTCBar;
+		};
+		9654D3331E36B7200062DFEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9654D3101E36B7200062DFEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9654D3171E36B7200062DFEF;
+			remoteInfo = BTCBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9654D3181E36B7200062DFEF /* BTCBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTCBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9654D31B1E36B7200062DFEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9654D31D1E36B7200062DFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9654D3201E36B7200062DFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9654D3221E36B7200062DFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9654D3271E36B7200062DFEF /* BTCBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9654D32B1E36B7200062DFEF /* BTCBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCBarTests.swift; sourceTree = "<group>"; };
+		9654D32D1E36B7200062DFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9654D3321E36B7200062DFEF /* BTCBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9654D3361E36B7200062DFEF /* BTCBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCBarUITests.swift; sourceTree = "<group>"; };
+		9654D3381E36B7200062DFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9654D3151E36B7200062DFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9654D3241E36B7200062DFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9654D32F1E36B7200062DFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9654D30F1E36B7200062DFEF = {
+			isa = PBXGroup;
+			children = (
+				9654D31A1E36B7200062DFEF /* BTCBar */,
+				9654D32A1E36B7200062DFEF /* BTCBarTests */,
+				9654D3351E36B7200062DFEF /* BTCBarUITests */,
+				9654D3191E36B7200062DFEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9654D3191E36B7200062DFEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9654D3181E36B7200062DFEF /* BTCBar.app */,
+				9654D3271E36B7200062DFEF /* BTCBarTests.xctest */,
+				9654D3321E36B7200062DFEF /* BTCBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9654D31A1E36B7200062DFEF /* BTCBar */ = {
+			isa = PBXGroup;
+			children = (
+				9654D31B1E36B7200062DFEF /* AppDelegate.swift */,
+				9654D31D1E36B7200062DFEF /* Assets.xcassets */,
+				9654D31F1E36B7200062DFEF /* MainMenu.xib */,
+				9654D3221E36B7200062DFEF /* Info.plist */,
+			);
+			path = BTCBar;
+			sourceTree = "<group>";
+		};
+		9654D32A1E36B7200062DFEF /* BTCBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				9654D32B1E36B7200062DFEF /* BTCBarTests.swift */,
+				9654D32D1E36B7200062DFEF /* Info.plist */,
+			);
+			path = BTCBarTests;
+			sourceTree = "<group>";
+		};
+		9654D3351E36B7200062DFEF /* BTCBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9654D3361E36B7200062DFEF /* BTCBarUITests.swift */,
+				9654D3381E36B7200062DFEF /* Info.plist */,
+			);
+			path = BTCBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9654D3171E36B7200062DFEF /* BTCBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9654D33B1E36B7200062DFEF /* Build configuration list for PBXNativeTarget "BTCBar" */;
+			buildPhases = (
+				9654D3141E36B7200062DFEF /* Sources */,
+				9654D3151E36B7200062DFEF /* Frameworks */,
+				9654D3161E36B7200062DFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTCBar;
+			productName = BTCBar;
+			productReference = 9654D3181E36B7200062DFEF /* BTCBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9654D3261E36B7200062DFEF /* BTCBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9654D33E1E36B7200062DFEF /* Build configuration list for PBXNativeTarget "BTCBarTests" */;
+			buildPhases = (
+				9654D3231E36B7200062DFEF /* Sources */,
+				9654D3241E36B7200062DFEF /* Frameworks */,
+				9654D3251E36B7200062DFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9654D3291E36B7200062DFEF /* PBXTargetDependency */,
+			);
+			name = BTCBarTests;
+			productName = BTCBarTests;
+			productReference = 9654D3271E36B7200062DFEF /* BTCBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9654D3311E36B7200062DFEF /* BTCBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9654D3411E36B7200062DFEF /* Build configuration list for PBXNativeTarget "BTCBarUITests" */;
+			buildPhases = (
+				9654D32E1E36B7200062DFEF /* Sources */,
+				9654D32F1E36B7200062DFEF /* Frameworks */,
+				9654D3301E36B7200062DFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9654D3341E36B7200062DFEF /* PBXTargetDependency */,
+			);
+			name = BTCBarUITests;
+			productName = BTCBarUITests;
+			productReference = 9654D3321E36B7200062DFEF /* BTCBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9654D3101E36B7200062DFEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = tejasp;
+				TargetAttributes = {
+					9654D3171E36B7200062DFEF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XV8AF4UG42;
+						ProvisioningStyle = Automatic;
+					};
+					9654D3261E36B7200062DFEF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XV8AF4UG42;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9654D3171E36B7200062DFEF;
+					};
+					9654D3311E36B7200062DFEF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = XV8AF4UG42;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9654D3171E36B7200062DFEF;
+					};
+				};
+			};
+			buildConfigurationList = 9654D3131E36B7200062DFEF /* Build configuration list for PBXProject "BTCBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9654D30F1E36B7200062DFEF;
+			productRefGroup = 9654D3191E36B7200062DFEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9654D3171E36B7200062DFEF /* BTCBar */,
+				9654D3261E36B7200062DFEF /* BTCBarTests */,
+				9654D3311E36B7200062DFEF /* BTCBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9654D3161E36B7200062DFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9654D31E1E36B7200062DFEF /* Assets.xcassets in Resources */,
+				9654D3211E36B7200062DFEF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9654D3251E36B7200062DFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9654D3301E36B7200062DFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9654D3141E36B7200062DFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9654D31C1E36B7200062DFEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9654D3231E36B7200062DFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9654D32C1E36B7200062DFEF /* BTCBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9654D32E1E36B7200062DFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9654D3371E36B7200062DFEF /* BTCBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9654D3291E36B7200062DFEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9654D3171E36B7200062DFEF /* BTCBar */;
+			targetProxy = 9654D3281E36B7200062DFEF /* PBXContainerItemProxy */;
+		};
+		9654D3341E36B7200062DFEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9654D3171E36B7200062DFEF /* BTCBar */;
+			targetProxy = 9654D3331E36B7200062DFEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9654D31F1E36B7200062DFEF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9654D3201E36B7200062DFEF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9654D3391E36B7200062DFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9654D33A1E36B7200062DFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		9654D33C1E36B7200062DFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XV8AF4UG42;
+				INFOPLIST_FILE = BTCBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.tejasp.BTCBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9654D33D1E36B7200062DFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XV8AF4UG42;
+				INFOPLIST_FILE = BTCBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.tejasp.BTCBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9654D33F1E36B7200062DFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XV8AF4UG42;
+				INFOPLIST_FILE = BTCBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.tejasp.BTCBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTCBar.app/Contents/MacOS/BTCBar";
+			};
+			name = Debug;
+		};
+		9654D3401E36B7200062DFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XV8AF4UG42;
+				INFOPLIST_FILE = BTCBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.tejasp.BTCBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTCBar.app/Contents/MacOS/BTCBar";
+			};
+			name = Release;
+		};
+		9654D3421E36B7200062DFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XV8AF4UG42;
+				INFOPLIST_FILE = BTCBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.tejasp.BTCBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BTCBar;
+			};
+			name = Debug;
+		};
+		9654D3431E36B7200062DFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XV8AF4UG42;
+				INFOPLIST_FILE = BTCBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.tejasp.BTCBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BTCBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9654D3131E36B7200062DFEF /* Build configuration list for PBXProject "BTCBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9654D3391E36B7200062DFEF /* Debug */,
+				9654D33A1E36B7200062DFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9654D33B1E36B7200062DFEF /* Build configuration list for PBXNativeTarget "BTCBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9654D33C1E36B7200062DFEF /* Debug */,
+				9654D33D1E36B7200062DFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9654D33E1E36B7200062DFEF /* Build configuration list for PBXNativeTarget "BTCBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9654D33F1E36B7200062DFEF /* Debug */,
+				9654D3401E36B7200062DFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9654D3411E36B7200062DFEF /* Build configuration list for PBXNativeTarget "BTCBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9654D3421E36B7200062DFEF /* Debug */,
+				9654D3431E36B7200062DFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9654D3101E36B7200062DFEF /* Project object */;
+}
